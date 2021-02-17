@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="kor">
+<head>
+    <style>
+        #mycanvas {border: 1px solid gray;}
+        input { margin:0 10px; width: 60px; text-align: center;}
+        div {font-size:small; margin-bottom: 5px;}
+    </style>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="./example.js"></script>
+</head>
+<body>
+
+<canvas id="mycanvas" width = "800" height="640"></canvas>
+<div>중심좌표(<span id="xc"></span>,<span id="yc"></span>) <- 마우스 클릭시 바뀜</div>
+
+<div>
+    <label>확대 배율: <input id="magnification" type="number" value="0.65"></label>
+    <label>최대 반복 횟수 : <input id="maxit" type="number" value="60"></label>
+    <input id="button" type="button" value="그리기">
+</div>
+
+
+</body>
+
+
+
+</html>
